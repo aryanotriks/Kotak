@@ -282,7 +282,7 @@ def action():
 	else:
 		print '[!] Fill in correctly'
 		action()
-
+        os.system('clear')
 	xxx = str(len(id))
 	jalan ('[✓] Total Numbers: '+xxx)
 	time.sleep(0.05)
