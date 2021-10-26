@@ -218,7 +218,7 @@ def lisensi():
 ####login#########
 def login():
 	os.system('clear')
-	print logo11
+	print logo
         print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m1.\x1b[1;96m Fast Cloning Without Fb ID\033[1;92m[New Update]"
         time.sleep(0.05)
         print "\033[1;93m-•◈•-\033[1;91m> \033[1;93m2.\x1b[1;94m Mr-Robot   WhatsApp Group   "
@@ -381,7 +381,7 @@ def action():
 	print '[✓] Total OK/CP : '+str(len(oks))+'/'+str(len(cpb))
 	print('[✓] CP File Has Been Saved : save/checkpoint.txt')
 	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
-	login()	
+	action()	
           
 if __name__ == '__main__':
 	login()
