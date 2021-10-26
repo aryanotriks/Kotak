@@ -277,7 +277,7 @@ def action():
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
 			Robot()
-elif Robot =='0':
+	elif Robot =="0":
 		login()
 	else:
 		print '[!] Fill in correctly'
