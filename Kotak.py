@@ -81,7 +81,7 @@ Y='\033[1;93m'
 ##### LOGO #####
 logo = """
 \033[1;94m  ___   _____  _     _  _     _  ___    ___   
-\033[1;91m(  _ \(  _  )( )   ( )( )   ( )(  _ \ (  _ \ 
+\033[1;91m (  _ \(  _  )( )   ( )( )   ( )(  _ \ (  _ \ 
 \033[1;92m | (_(_) (_) | \ \_/ /  \ \_/ / | (_(_)| | ) |
 \033[1;93m  \__ \(  _  )   \ /      \ /   |  _)_ | | | )
 \033[1;95m ( )_) | | | |   | |      | |   | (_( )| |_) |
@@ -250,7 +250,7 @@ def pilih_login():
 def Robot():
 	os.system('clear')
 	print logo
-	print '\033[1;93mStart Cloning Random'
+	print '\033[1;93m1Start Cloning Random'
 	print 45*'-'
 	action()
 	
@@ -381,7 +381,7 @@ def action():
 	print '[✓] Total OK/CP : '+str(len(oks))+'/'+str(len(cpb))
 	print('[✓] CP File Has Been Saved : save/checkpoint.txt')
 	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
-	action()	
+	Robot()	
           
 if __name__ == '__main__':
 	login()
