@@ -250,7 +250,7 @@ def pilih_login():
 def Robot():
 	os.system('clear')
 	print logo
-	print '\033[1;93m-•◈•-\033[1;97m> \033[1;91m☆.\x1b[1;96mStart Cloning Bangladesh
+	print '\033[1;93mStart Cloning Random
 	print 45*'-'
 	action()
 	
